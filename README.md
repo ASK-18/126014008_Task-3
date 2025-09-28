@@ -29,25 +29,25 @@ A **React + TypeScript + Ant Design** frontend for managing and executing tasks 
 
 ## Installation & Setup
 
-1.Clone the repository:
+1. Clone the repository:
 
 ```bash
 git clone https://github.com/ASK-18/126014008_Task-3.git
 cd 126014008_Task-3
 ```
-2.Install dependencies:
+2. Install dependencies:
 ```
 npm install
 ```
 
-3.Run in development mode:
+3. Run in development mode:
 ```
 npm start
 ```
 
 **Open http://localhost:3000 to view in your browser.**
 
-4.Build for production:
+4. Build for production:
 ```
 npm run build
 ```
@@ -94,14 +94,14 @@ npm run build
 
 ### Contributions are welcome!
 
-1.Fork the repository.
+1. Fork the repository.
 
-2.Create a new branch: git checkout -b feature-name
-3.Make your changes and commit: git commit -m "Add feature"
+2. Create a new branch: git checkout -b feature-name
+3. Make your changes and commit: git commit -m "Add feature"
 
-4.Push to the branch: git push origin feature-name
+4. Push to the branch: git push origin feature-name
 
-5.Open a Pull Request.
+5. Open a Pull Request.
 
 ## License
 
