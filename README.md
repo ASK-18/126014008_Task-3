@@ -80,13 +80,40 @@ npm run build
 
 ## Screenshots
 
-- Dashboard / Task List
+## Screenshots
+### Task Manager Screenshots
 
+<!-- CREATE -->
+#### CREATE
+*Insert a new task successfully.*  
+![Create_Task](Screenshots/Create_Task.png)  
 
-- Create New Task Form
+<!-- READ -->
+#### READ
+*Initial view of the app.*  
+![First_View](Screenshots/First_View.png)  
 
+*Display all tasks in the table.*  
+![Show_Tasks](Screenshots/Show_Tasks.png)  
 
-- Task Execution Output
+*Search tasks by a keyword.*  
+![Search_Task](Screenshots/Search_Task.png)  
+
+<!-- UPDATE -->
+#### UPDATE
+*Task before execution (can be updated).*  
+![Task_Before_Execution](Screenshots/Task_Before_Execution.png)  
+
+<!-- EXECUTE -->
+#### EXECUTE
+*Execute a task command.*  
+![Execute_Task](Screenshots/Execute_Task.png)  
+
+<!-- DELETE -->
+#### DELETE
+*Delete an existing task.*  
+![Delete_Task](Screenshots/Delete_Task.png)  
+
 
 
 
