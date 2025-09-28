@@ -1,46 +1,108 @@
-# Getting Started with Create React App
+# Task Manager UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Website:** [https://ask-18.github.io/126014008_Task-3/](https://ask-18.github.io/126014008_Task-3/)
 
-## Available Scripts
+A **React + TypeScript + Ant Design** frontend for managing and executing tasks using a Java backend REST API. Users can create, view, search, delete tasks, run commands, and view outputs in a user-friendly interface.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## Table of Contents
+- [Features](#features)  
+- [Installation & Setup](#installation--setup)  
+- [Usage](#usage)  
+- [Tech Stack](#tech-stack)  
+- [Screenshots](#screenshots)  
+- [Contributing](#contributing)  
+- [License](#license)  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Features
+- Create new tasks with `name`, `owner`, and `command`.  
+- View all tasks in a searchable and sortable table.  
+- Delete tasks easily.  
+- Execute tasks and view command output.  
+- Responsive and user-friendly UI using Ant Design components.  
+- Supports integration with Java REST API backend.  
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Installation & Setup
 
-### `npm run build`
+1. Clone the repository:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+git clone https://github.com/ASK-18/126014008_Task-3.git
+cd 126014008_Task-3
+```
+2. Install dependencies:
+```
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Run in development mode:
+```
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Open http://localhost:3000 to view in your browser.**
 
-### `npm run eject`
+4. Build for production:
+```
+npm run build
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+**The production-ready files will be in the build/ folder, ready to deploy.**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Usage
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Navigate through the UI to:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Create tasks by providing name, owner, and command.
 
-## Learn More
+- View tasks in the table and filter/search by name.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Delete tasks that are no longer needed.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Execute tasks and monitor their output.
+
+**Note: Task execution requires a running Java backend REST API connected to MongoDB.**
+
+## Tech Stack
+
+ - Frontend: React 19, TypeScript, Ant Design
+
+ - Backend: Java REST API (MongoDB integration)
+
+ - Deployment: GitHub Pages (static frontend)
+
+ - State Management: React useState and useEffect
+
+## Screenshots
+
+- Dashboard / Task List
+
+
+- Create New Task Form
+
+
+- Task Execution Output
+
+
+
+## Contributing
+
+### Contributions are welcome!
+
+1. Fork the repository.
+
+2. Create a new branch: git checkout -b feature-name
+3. Make your changes and commit: git commit -m "Add feature"
+
+4. Push to the branch: git push origin feature-name
+
+5. Open a Pull Request.
+
+## License
+
+**© 2025 Kaiburr LLC. All rights reserved.**
