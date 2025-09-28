@@ -107,7 +107,7 @@ npm run build
 <!-- EXECUTE -->
 #### EXECUTE
 *Execute a task command.*  
-![Execute_Task](Screenshots/Execute_Task.png)  
+![Execute_Task](Screenshots/Execuete_Task.png)  
 
 <!-- DELETE -->
 #### DELETE
