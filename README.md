@@ -70,23 +70,23 @@ npm run build
 
 ## Tech Stack
 
- -Frontend: React 19, TypeScript, Ant Design
+ - Frontend: React 19, TypeScript, Ant Design
 
- -Backend: Java REST API (MongoDB integration)
+ - Backend: Java REST API (MongoDB integration)
 
- -Deployment: GitHub Pages (static frontend)
+ - Deployment: GitHub Pages (static frontend)
 
- -State Management: React useState and useEffect
+ - State Management: React useState and useEffect
 
 ## Screenshots
 
--Dashboard / Task List
+- Dashboard / Task List
 
 
--Create New Task Form
+- Create New Task Form
 
 
--Task Execution Output
+- Task Execution Output
 
 
 
