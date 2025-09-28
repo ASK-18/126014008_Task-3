@@ -21,9 +21,10 @@ export const createOrUpdateTask = async (task: Task) => {
 };
 
 export const deleteTask = async (id: string) => {
-  const res = await axios.delete(`${API_URL}/tasks?id=${id}`);
+  const res = await axios.delete(`${API_URL}/tasks/${id}`); // path param
   return res.data;
 };
+
 
 export const findTasksByName = async (name: string): Promise<Task[]> => {
   const res = await axios.get(`${API_URL}/tasks/search?name=${name}`);
