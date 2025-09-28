@@ -29,7 +29,7 @@ A **React + TypeScript + Ant Design** frontend for managing and executing tasks 
 
 ## Installation & Setup
 
-1. Clone the repository:
+1.Clone the repository:
 
 ```bash
 git clone https://github.com/ASK-18/126014008_Task-3.git
@@ -70,13 +70,13 @@ npm run build
 
 ## Tech Stack
 
-- Frontend: React 19, TypeScript, Ant Design
+ -Frontend: React 19, TypeScript, Ant Design
 
--Backend: Java REST API (MongoDB integration)
+ -Backend: Java REST API (MongoDB integration)
 
--Deployment: GitHub Pages (static frontend)
+ -Deployment: GitHub Pages (static frontend)
 
--State Management: React useState and useEffect
+ -State Management: React useState and useEffect
 
 ## Screenshots
 
